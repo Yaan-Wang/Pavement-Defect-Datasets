@@ -1,6 +1,6 @@
 # Pavement-Defect-Datasets-Anomaly-Segmentation
 Description  
-  The pavement defect datasets are used to evaluate anomaly segmentation methods. It cantains three pavement datasets with different texture backgrounds and challenges.   
+  The pavement defect datasets are used to evaluate anomaly segmentation methods. It cantains three pavement datasets with different texture backgrounds and challenges.     
 IPAS dataset  
   The inlaid patch anomaly segmentation (IPAS) dataset is collected on highways. The original images are cropped into 256x256, where 500 non-defective images are randomly selected for training, and 450 non-defective and 150 defective images are utilized for testing. As a common pavement defect, the accurate detection of inlaid patches is significant for pavement assessment. The color and texture of collected inlaid patches share high similarities with the backgrounds. Moreover, there are many interference factors in backgrounds, such as oil, rain stains, road markings, gravel, and fallen paint during patching. These challenges make anomaly segmentation more difficult. By establishing this inter-class ambiguous dataset, we can assess the ability of anomaly segmentation algorithms to reconcile the contradiction between generalization and reconstruction fidelity.  
 Crack500 dataset  
